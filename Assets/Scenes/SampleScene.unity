@@ -348,13 +348,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6494093600593463471, guid: 828382862ff4e4e46aa6eac405212bc7, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 447017719599806724, guid: 828382862ff4e4e46aa6eac405212bc7, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.035895705
       objectReference: {fileID: 0}
     - target: {fileID: 447017719599806724, guid: 828382862ff4e4e46aa6eac405212bc7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.0796027
+      value: -2.0701
       objectReference: {fileID: 0}
     - target: {fileID: 447017719599806724, guid: 828382862ff4e4e46aa6eac405212bc7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -388,9 +392,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5007977196751412646, guid: 828382862ff4e4e46aa6eac405212bc7, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8181540329032726436, guid: 828382862ff4e4e46aa6eac405212bc7, type: 3}
       propertyPath: m_Name
       value: Mario Tileset 2_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181540329032726436, guid: 828382862ff4e4e46aa6eac405212bc7, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -409,6 +421,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2869265173121007563, guid: 784eab2bfd63063479fb285f6822e220, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 7a1a8a61a2235a142a7a6b059e8ea702, type: 2}
     - target: {fileID: 5281478990006871999, guid: 784eab2bfd63063479fb285f6822e220, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

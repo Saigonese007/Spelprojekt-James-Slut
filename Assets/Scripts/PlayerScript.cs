@@ -14,8 +14,6 @@ public class PlayerScript : MonoBehaviour
     bool isCrouching;
 
 
-
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -51,26 +49,28 @@ public class PlayerScript : MonoBehaviour
         {
             spriteRenderer.flipX = false;
         }
+
+        HandleAnimations();
     }
 
     void HandleAnimations()
     {
         if (isCrouching == true)
         {
-            animator.Play("Player_Crouch");
+            animator.Play("MPlayer_Crouch");
             return;
         }
         else if (rb.linearVelocity.sqrMagnitude > 0)
         {
-            animator.Play("Player_Walk");
+            animator.Play("MPlayer_Walk");
         }
         else if (rb.linearVelocity.sqrMagnitude > 0)
         {
-            animator.Play("Player_Jump");
+            animator.Play("MPlayer_Jump");
         }
         else
         {
-            animator.Play("Player_Idle");
+            animator.Play("MPlayer_Idle");
         }
     }
 }
