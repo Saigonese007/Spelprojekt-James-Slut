@@ -13,14 +13,7 @@ public class GroundCheckScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isGrounded)
-        {
-            Debug.Log("[1] isGrounded = true");
-        }
-        else if (isGrounded == false)
-        {
-            Debug.Log("[1] isGrounded = false");
-        }
+        
     }
 
     private void OnTriggerStay2D(Collider2D collision)

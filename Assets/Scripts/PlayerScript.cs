@@ -9,6 +9,8 @@ public class PlayerScript : MonoBehaviour
 
     private SpriteRenderer spriteRenderer;
 
+    GroundCheckScript GroundCheck;
+
     Animator animator;
 
     bool isCrouching;
@@ -18,16 +20,18 @@ public class PlayerScript : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+
+        GroundCheck = GetComponentInChildren<GroundCheckScript>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
         rb.linearVelocityX = Input.GetAxisRaw("Horizontal") * MoveSpeed;
-        if (Input.GetKeyDown(KeyCode.Space) == true)
+        if (Input.GetKeyDown(KeyCode.Space) == true && GroundCheck.isGrounded)
         {
             rb.linearVelocityY = JumpSpeed;
         }
@@ -60,13 +64,15 @@ public class PlayerScript : MonoBehaviour
             animator.Play("MPlayer_Crouch");
             return;
         }
-        else if (rb.linearVelocity.sqrMagnitude > 0)
-        {
-            animator.Play("MPlayer_Walk");
-        }
-        else if (rb.linearVelocity.sqrMagnitude > 0)
+        else if (!GroundCheck.isGrounded)
         {
             animator.Play("MPlayer_Jump");
+            return;
+        }
+        else if (Input.GetAxisRaw("Horizontal") != 0)
+        {
+            animator.Play("MPlayer_Walk");
+            return;
         }
         else
         {
