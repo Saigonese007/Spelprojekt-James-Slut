@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01a3c6579d9c16842a4d60f788349f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  nextLevel: Level 2
 --- !u!60 &832529455665407961
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -175,6 +176,7 @@ PolygonCollider2D:
     m_Paths:
     - - {x: -1.40625, y: -3.890625}
       - {x: 2.90625, y: 1.109375}
+      - {x: 2.8667088, y: 2.282449}
       - {x: 2.8125, y: 3.890625}
       - {x: -1, y: 4.703125}
       - {x: -1.15625, y: 5.046875}
