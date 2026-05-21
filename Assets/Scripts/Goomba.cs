@@ -61,9 +61,8 @@ public class Goomba : MonoBehaviour
     {
         dead = true;
         rb.linearVelocity = new Vector2(0f, rb.linearVelocityY);
-        
+        GameManager.instance.AddScore(1);
         anim.Play("Goomba_Dead");
         Debug.Log("Goomba eliminated");
-        bc.isTrigger = false;
     }
 }

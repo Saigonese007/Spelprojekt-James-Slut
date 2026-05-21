@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: b4865fcf1c2062e478f5c9a4f37e0f9b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -739748932089606207
+    second: LuckyBlock_0
+  - first:
+      213: 8372214805973226721
+    second: LuckyBlock_1
+  - first:
+      213: 8248885322562752846
+    second: LuckyBlock_2
+  - first:
+      213: 2328056665940470548
+    second: LuckyBlock_3
+  - first:
+      213: 4702121921697408614
+    second: LuckyBlock_4
+  - first:
+      213: 1046874987990742313
+    second: LuckyBlock_5
+  - first:
+      213: 3998852909711835300
+    second: LuckyBlock_6
+  - first:
+      213: 1171695182609215737
+    second: LuckyBlock_7
+  - first:
+      213: -2519082648877452486
+    second: LuckyBlock_8
+  - first:
+      213: 3522187655914591804
+    second: LuckyBlock_9
+  - first:
+      213: -5420403604087583459
+    second: LuckyBlock_10
+  - first:
+      213: 2307816651475754105
+    second: LuckyBlock_11
+  - first:
+      213: -7839807643295621953
+    second: LuckyBlock_12
+  - first:
+      213: -9190146808276349804
+    second: LuckyBlock_13
+  - first:
+      213: 3451858605584059580
+    second: LuckyBlock_14
+  - first:
+      213: -8311894509397238825
+    second: LuckyBlock_15
+  - first:
+      213: -6367955352205189671
+    second: LuckyBlock_16
+  - first:
+      213: 8535263720620215885
+    second: LuckyBlock_17
+  - first:
+      213: 8148777603464891811
+    second: LuckyBlock_18
+  - first:
+      213: 1830949770857840658
+    second: LuckyBlock_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LuckyBlock_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 476
+        width: 1376
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf03dff342ebb5f0800000000000000
+      internalID: -739748932089606207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 381
+        width: 144
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4dc451205103470800000000000000
+      internalID: 8372214805973226721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_2
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 386
+        width: 102
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4159441f7de97270800000000000000
+      internalID: 8248885322562752846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 386
+        width: 102
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41bac5ef33bee4020800000000000000
+      internalID: 2328056665940470548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_4
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 472
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 666e95199fa414140800000000000000
+      internalID: 4702121921697408614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_5
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 472
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925fd67414f378e00800000000000000
+      internalID: 1046874987990742313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 472
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a04968d887ce7730800000000000000
+      internalID: 3998852909711835300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_7
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 386
+        width: 102
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f075788f82b24010800000000000000
+      internalID: 1171695182609215737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_8
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 473
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a333fc17dab6a0dd0800000000000000
+      internalID: -2519082648877452486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_9
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 386
+        width: 102
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c361e0ff20351e030800000000000000
+      internalID: 3522187655914591804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_10
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 475
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1dcc1ff3abd6c4b0800000000000000
+      internalID: -5420403604087583459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_11
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 476
+        width: 96
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c91f56403070020800000000000000
+      internalID: 2307816651475754105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_12
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 386
+        width: 100
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbcd8f94c78633390800000000000000
+      internalID: -7839807643295621953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_13
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 385
+        width: 102
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49c8ffa5b2a067080800000000000000
+      internalID: -9190146808276349804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_14
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 386
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc86b0fc1777ef20800000000000000
+      internalID: 3451858605584059580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_15
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 386
+        width: 103
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db9bd46bf736ac80800000000000000
+      internalID: -8311894509397238825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_16
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 386
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd1346985a70a7a0800000000000000
+      internalID: -6367955352205189671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_17
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 386
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ec8d3d129537670800000000000000
+      internalID: 8535263720620215885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_18
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 386
+        width: 102
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ad0f286e06461170800000000000000
+      internalID: 8148777603464891811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LuckyBlock_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 5
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2108095ad17d86910800000000000000
+      internalID: 1830949770857840658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LuckyBlock_0: -739748932089606207
+      LuckyBlock_1: 8372214805973226721
+      LuckyBlock_10: -5420403604087583459
+      LuckyBlock_11: 2307816651475754105
+      LuckyBlock_12: -7839807643295621953
+      LuckyBlock_13: -9190146808276349804
+      LuckyBlock_14: 3451858605584059580
+      LuckyBlock_15: -8311894509397238825
+      LuckyBlock_16: -6367955352205189671
+      LuckyBlock_17: 8535263720620215885
+      LuckyBlock_18: 8148777603464891811
+      LuckyBlock_19: 1830949770857840658
+      LuckyBlock_2: 8248885322562752846
+      LuckyBlock_3: 2328056665940470548
+      LuckyBlock_4: 4702121921697408614
+      LuckyBlock_5: 1046874987990742313
+      LuckyBlock_6: 3998852909711835300
+      LuckyBlock_7: 1171695182609215737
+      LuckyBlock_8: -2519082648877452486
+      LuckyBlock_9: 3522187655914591804
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
