@@ -5,22 +5,29 @@ public class LuckyBlockScript : MonoBehaviour
 
     SpriteRenderer sr;
 
+    public Sprite usedSprite;
+
+
+    public int scoreAdded = 5;
+
     bool used = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-
+        
     }
 
-    // Update is called once per frame
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
 
-        if (collision.gameObject.CompareTag("Player"))
-        {
-          
-        }
+    public void HitBlock()
+    {
+        if (used) return;
+
+        used = true; // sätter så att den är used
+
+        sr.sprite = usedSprite; // ändrar till en annat used block
+
+        GameManager.instance.AddScore(scoreAdded);
     }
 }

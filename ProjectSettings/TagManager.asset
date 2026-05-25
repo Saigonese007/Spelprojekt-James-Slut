@@ -7,6 +7,10 @@ TagManager:
   - Ground
   - Flag
   - Enemy
+  - Pipe
+  - Stomp
+  - LuckyBlockBottom
+  - LuckyBlock
   layers:
   - Default
   - TransparentFX
