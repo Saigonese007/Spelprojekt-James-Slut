@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8306344019334401875}
   m_Layer: 0
   m_Name: LuckyBlock
-  m_TagString: Untagged
+  m_TagString: LuckyBlock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a2c854b94e8f6e469c06ea9384c2034, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  usedSprite: {fileID: 0}
+  usedSprite: {fileID: -6861099281927218219, guid: fb48cf668aa2f5f469e94b638fc1f7ee, type: 3}
   scoreAdded: 5
 --- !u!1 &4041021701248366067
 GameObject:

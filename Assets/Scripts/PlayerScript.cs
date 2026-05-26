@@ -7,13 +7,16 @@ public class PlayerScript : MonoBehaviour
     public float MoveSpeed = 5;
     public float JumpSpeed = 5;
 
-    private SpriteRenderer spriteRenderer;
+    SpriteRenderer spriteRenderer;
 
     GroundCheckScript GroundCheck;
 
     Animator animator;
 
     bool isCrouching;
+
+    AudioSource aSource;
+    public AudioClip[] SoundEffects;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,7 +25,7 @@ public class PlayerScript : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
-
+        aSource = GetComponent<AudioSource>();
         GroundCheck = GetComponentInChildren<GroundCheckScript>();
 
     }
@@ -34,8 +37,11 @@ public class PlayerScript : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) == true && GroundCheck.isGrounded)
         {
             rb.linearVelocityY = JumpSpeed;
+            aSource.PlayOneShot(SoundEffects[0]);
         }
 
+
+        /* har inte gjort denna än
         if (Input.GetKey(KeyCode.S))
         {
             isCrouching = true;
@@ -44,6 +50,7 @@ public class PlayerScript : MonoBehaviour
         {
             isCrouching = false;
         }
+        */
 
         if (Input.GetKey(KeyCode.A))
         {
@@ -55,6 +62,7 @@ public class PlayerScript : MonoBehaviour
         }
 
         HandleAnimations();
+
     }
 
     void HandleAnimations()
