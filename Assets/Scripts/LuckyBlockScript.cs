@@ -29,5 +29,7 @@ public class LuckyBlockScript : MonoBehaviour
         sr.sprite = usedSprite; // ändrar till en annat used block
 
         GameManager.instance.AddScore(scoreAdded);
+
+        Debug.Log("Block activated");
     }
 }

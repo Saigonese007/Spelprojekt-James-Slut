@@ -16,7 +16,11 @@ public class flagScript : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             anim.Play("flagFinish");
-            Invoke("LoadNextLevel", 2f);
+            Invoke("LoadNextLevel", 2f); // delay så att man väntar 
+
+            string levelName = SceneManager.GetActiveScene().name;
+
+            Utility.saveData[levelName] = "completed";
         }
 
     }

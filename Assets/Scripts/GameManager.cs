@@ -1,5 +1,7 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,7 +16,11 @@ public class GameManager : MonoBehaviour
     public TextMeshProUGUI timeText;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI gameOverText;
-   
+    public Button RestartAfterDeathButton;
+
+
+    public PlayerScript player;
+
 
     bool gameOver = false;
 
@@ -22,22 +28,21 @@ public class GameManager : MonoBehaviour
     {
         instance = this; // för att andra scripts ska kunna ha denna i hela spelet
     }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         timeLeft = timeLimit; //efter denna tid så ska det blir gamover
-
+        RestartAfterDeathButton.gameObject.SetActive(false); // samma som gameover text
         gameOverText.gameObject.SetActive(false); // Så att gameover inte finns i början av spelet
-
+          
         UpdateUI();
     }
 
-    // Update is called once per frame
     void Update()
     {
+
         if (gameOver) return;
 
-        timeLeft -= Time.deltaTime; // så det inte blir inconsitent
+        timeLeft -= Time.deltaTime; // så det inte blir inconsistent
 
         if (timeLeft <= 0)
         {
@@ -45,6 +50,8 @@ public class GameManager : MonoBehaviour
         }
 
         UpdateUI();
+
+
     }
 
     void UpdateUI()
@@ -61,13 +68,26 @@ public class GameManager : MonoBehaviour
         UpdateUI();
     }
 
-    void GameOver()
+    
+    public void GameOver()
     {
+
+       if (gameOver) return;
+
         gameOver = true;
 
         gameOverText.gameObject.SetActive(true);
         gameOverText.text = "Game Over";
 
+        RestartAfterDeathButton.gameObject.SetActive(true);
+
+
         Time.timeScale = 0f; // stoppar spelet helt
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

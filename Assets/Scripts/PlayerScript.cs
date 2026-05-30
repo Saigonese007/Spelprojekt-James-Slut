@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -18,6 +19,7 @@ public class PlayerScript : MonoBehaviour
     AudioSource aSource;
     public AudioClip[] SoundEffects;
 
+    bool isDead = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -27,6 +29,8 @@ public class PlayerScript : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         aSource = GetComponent<AudioSource>();
         GroundCheck = GetComponentInChildren<GroundCheckScript>();
+
+
 
     }
 
@@ -39,18 +43,6 @@ public class PlayerScript : MonoBehaviour
             rb.linearVelocityY = JumpSpeed;
             aSource.PlayOneShot(SoundEffects[0]);
         }
-
-
-        /* har inte gjort denna än
-        if (Input.GetKey(KeyCode.S))
-        {
-            isCrouching = true;
-        }
-        else
-        {
-            isCrouching = false;
-        }
-        */
 
         if (Input.GetKey(KeyCode.A))
         {
@@ -86,5 +78,16 @@ public class PlayerScript : MonoBehaviour
         {
             animator.Play("MPlayer_Idle");
         }
+
+        if (isDead)
+        {
+            animator.Play("MPlayer_Death");
+        }
+    }
+
+    public void TakeDamage()
+    {
+
+        GameManager.instance.GameOver();
     }
 }
